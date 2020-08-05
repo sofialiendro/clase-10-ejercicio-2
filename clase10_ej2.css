@@ -1,0 +1,39 @@
+header {
+  background-color: yellowgreen;
+  height: 100px;
+}
+
+li {
+  font-family: 'Lucida Sans';
+}
+
+a {
+  text-decoration: none;
+  color:red;
+  margin: 30px;
+}
+
+ul {
+  display: flex;
+}
+
+.fas.fa-bars {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  a {
+    display: none;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .fas.fa-bars {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+  }
+
+}
